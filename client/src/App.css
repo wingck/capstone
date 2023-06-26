@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+body{
+  background-color: rgb(34, 31, 31);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+.auth-container{
+  position: relative;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+input{
+  background-color:rgb(34, 31, 31);
+  color: white;
+  border-right: none;
+}
+.btn1, .btn2, .navbtn{
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(96, 19, 50);
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+}
+.btn1{
+  padding: 3px 5px 3px 5px;
+}
+.btn2{
+  padding: 1px 10px 1px 10px;
+}
+.btn1:hover, .btn2:hover, .navbtn:hover, .create-form button:hover, .display-recipe button:hover, .saved-recipe button:hover, .editbtn:hover{
+  opacity: 0.5;
+}
+.navbar{
+  font-size: 40px;
+  text-align: center;
+}
+.navbtn{
+  margin-left: 20px;
+}
+.navlink{
+  margin-left: 50px;
+}
+.create-form, .edit-form{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 800px;
+  margin: 30px auto;
+}
+.create-form input{
+  text-align: center;
+}
+.create-form button{
+  width: 70px;
+  transform: translateX(400px);
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(96, 19, 50);
+}
+.ReactModal__Content--after-open{
+  background-color: rgb(34, 31, 31) !important;
+  height: 400px;
+}
+.display-recipe{
+  position: relative;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+ul{
+  position: relative;
+  list-style: none;
+}
+.display-recipe button, .saved-recipe button{
+  width: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(96, 19, 50);
+}
+.saved-recipe button{
+  margin-left: 20px;
+}
+.editbtn{
+  width: 80px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(96, 19, 50);
+}
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.recipes-container h2{
+  font-size: 30px;
+}
