@@ -1,6 +1,6 @@
 # client folder
 
-For client folder, below are the commands that I have use, you may use either yarn or npm method. (I use yarn)
+For client folder, below are the commands that I have used, you may use either yarn or npm method. (I use yarn)
 
 # yarn method
 
