@@ -85,4 +85,24 @@ After finishing the above procedures, you will see this page. A database called 
 
 # 8 Connect MongoDB Compass to MongoDB Atlas (continue)
 <img width="1470" alt="Screen Shot 2023-06-27 at 2 47 14 PM" src="https://github.com/wingck/capstone/assets/99191737/bbe3ad0d-469f-40aa-a22e-91d33e1e2ec6">
-Inside this popup, click "Drivers"
+Inside this popup, click "Compass".
+
+# 9 Connect MongoDB Compass to MongoDB Atlas (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 3 40 49 PM" src="https://github.com/wingck/capstone/assets/99191737/61faa13d-25eb-4fcd-b94e-65dececc21ef">
+Copy the circled link.
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 49 14 PM" src="https://github.com/wingck/capstone/assets/99191737/0f2ba9c3-dd62-4498-ab92-8bad0f37121b">
+Then open MongoDB Compass and paste it to the URL box.
+In my example, my URL is mongodb+srv://ckwwingo:<password>@test.umv80ov.mongodb.net/, where <password> is my database's password. Then click "connect", you will get into the database in MongoDB.
+
+# 10 Connect VS Code with MongoDB
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 47 14 PM" src="https://github.com/wingck/capstone/assets/99191737/8bcba7e4-8a37-4ab5-95db-3245100b3399">
+Go back to MongoDB Atlas and click the connect button. This time click "Drivers".
+
+# 11 Connect VS Code with MongoDB (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 3 49 32 PM" src="https://github.com/wingck/capstone/assets/99191737/67647004-f844-4691-bf34-663aaebe97b4">
+Copy the circled link.
+<img width="1470" alt="Screen Shot 2023-06-27 at 3 45 40 PM" src="https://github.com/wingck/capstone/assets/99191737/96839100-43fb-44e2-afbf-d76b117f7d36">
+Go to the file server/src/index.js .Paste the link inside mongoose.connect() on line 16.
+In my example, I use the database "test", so my link should be mongodb+srv://ckwwingo:<password>@test.umv80ov.mongodb.net/test?retryWrites=true&w=majority, where <password> is the database's password.
+[IMPORTANT] In the above link, you should add database's name before "?retryWrites", my databse is "test" so it is "test?retryWrites".
+After all the setup, you can run the app.
