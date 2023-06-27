@@ -1,6 +1,6 @@
 # client folder
 
-For client folder, below are the commands that I have use, you may use either yarn or npm method. 
+For client folder, below are the commands that I have use, you may use either yarn or npm method. (I use yarn)
 
 # yarn method
 
@@ -25,7 +25,7 @@ npm start
 
 # server folder
 
-For server folder, below are the commands that I have used,
+For server folder, below are the commands that I have used, you may use either yarn or npm method. (I use yarn)
 
 # yarn method
 
@@ -54,4 +54,35 @@ node src/index.js
 # setup MongoDB
 
 # 1. Go to MongoDB Atlas
-<img width="1470" alt="Screen Shot 2023-06-27 at 2 40 02 PM" src="https://github.com/wingck/capstone/assets/99191737/00ec9944-8d64-467c-8763-744f7ab77af1">
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 40 02 PM" src="https://github.com/wingck/capstone/assets/99191737/76ba9a8e-2df5-4ce1-9c52-16e7b4ad4306">
+After opening an account, you will see the page above. Click the circled button and click "new project".
+
+# 2. Create a project
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 40 09 PM" src="https://github.com/wingck/capstone/assets/99191737/5de379a0-59ee-4812-9752-3cd616b02419">
+Create a project name and click "next", I use "test" as an example.
+
+# 3. Create a project (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 43 43 PM" src="https://github.com/wingck/capstone/assets/99191737/fe256a99-8e65-4201-bec9-dfcdbd5f45d7">
+No need to change anything, just click "create project".
+
+# 4. Create a database
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 44 20 PM" src="https://github.com/wingck/capstone/assets/99191737/cedca2a0-ac23-4022-b96b-b14ae5cdab31">
+Click "build a database". If you see a message above saying that "current IP is not added", just click the button "add current IP address".
+
+# 5. Create a database (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 44 57 PM" src="https://github.com/wingck/capstone/assets/99191737/917e90cf-2c0c-4e36-ab6b-dcd9926f99f7">
+Choose the free option on the right. For "Provider", choose AWS. Then choose your database name, I use "test" as an example.
+
+# 6 Create a database (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 45 25 PM" src="https://github.com/wingck/capstone/assets/99191737/663eb6b9-6f8d-46a3-8f1f-8e354ed96c43">
+Then choose a username and password for your database. Then click "create user".
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 45 32 PM" src="https://github.com/wingck/capstone/assets/99191737/842d3775-412e-43ff-a595-0713875e41e3">
+Finally just click "finish and close".
+
+# 7 Connect MongoDB Compass to MongoDB Atlas
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 47 10 PM" src="https://github.com/wingck/capstone/assets/99191737/7d4543ec-362a-4728-9739-4be3bb86584b">
+After finishing the above procedures, you will see this page. A database called "test" has been created and click "connect".
+
+# 8 Connect MongoDB Compass to MongoDB Atlas (continue)
+<img width="1470" alt="Screen Shot 2023-06-27 at 2 47 14 PM" src="https://github.com/wingck/capstone/assets/99191737/bbe3ad0d-469f-40aa-a22e-91d33e1e2ec6">
+Inside this popup, click "Drivers"
