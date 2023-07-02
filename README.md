@@ -104,5 +104,6 @@ Copy the circled link.
 <img width="1470" alt="Screen Shot 2023-07-01 at 10 26 03 PM" src="https://github.com/wingck/capstone/assets/99191737/f73e39a7-da83-43bb-bba5-c888d7f1a14c">
 Go to the file server/src/index.js .Paste the link inside mongoose.connect() on line 16.
 In my example, I use the database "test", so my link should be mongodb+srv://ckwwingo:< password >@test.umv80ov.mongodb.net/test?retryWrites=true&w=majority, where < password > is the database's password.
+  
 [IMPORTANT] In the above link, you should add database's name before "?retryWrites", my database is "test" so it is "test?retryWrites".
 After all the setup, you can run the app using "node src/index.js" in the server folder and "yarn start" in the client folder.
