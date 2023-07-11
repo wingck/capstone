@@ -8,19 +8,12 @@ yarn create react-app.
 
 yarn add react-router-dom axios react-cookie
 
-To run the client folder, use the below command,
-
-yarn start
 
 # npm method
 
 npm i create-react-app
 
 npm i react-router-dom axios react-cookie
-
-To run the client folder, use the below command,
-
-npm start
 
 
 # server folder
@@ -35,9 +28,6 @@ yarn add express cors bcrypt jsonwebtoken mongoose
 
 yarn add --dev nodemon
 
-To run the server folder, use the below command,
-
-node src/index.js
 
 # npm method
 
@@ -47,9 +37,6 @@ npm i express cors bcrypt jsonwebtoken mongoose
 
 npm i --dev nodemon
 
-To run the server folder, use the below command,
-
-node src/index.js
 
 # setup MongoDB
 
@@ -106,4 +93,4 @@ Go to the file server/src/index.js .Paste the link inside mongoose.connect() on 
 In my example, I use the database "test", so my link should be mongodb+srv://ckwwingo:< password >@test.umv80ov.mongodb.net/test?retryWrites=true&w=majority, where < password > is the database's password.
   
 [IMPORTANT] In the above link, you should add database's name before "?retryWrites", my database is "test" so it is "test?retryWrites".
-After all the setup, you can run the app using "node src/index.js" in the server folder and "yarn start" in the client folder.
+After all the setup, you can run the app using "node src/index.js" in the server folder and "yarn start" in the client folder (If you use npm method, use "npm start").
