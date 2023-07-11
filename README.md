@@ -79,7 +79,7 @@ Inside this popup, click "Compass".
 Copy the circled link.
 <img width="1470" alt="Screen Shot 2023-06-27 at 4 05 50 PM" src="https://github.com/wingck/capstone/assets/99191737/5a5eb9dd-2b9b-4a4d-a87e-e0717ca31ff2">
 Then open MongoDB Compass and paste it to the URL box.
-In my example, my URL is mongodb+srv://ckwwingo:< password >@test.umv80ov.mongodb.net/, where < password > is my database's password. Then click "connect", you will get into the database in MongoDB.
+In my example, my URL is mongodb+srv://ckwwingo:< password >@test.umv80ov.mongodb.net/, where < password > is my database's password. After replacing < password > to your own password, then click "connect", you will get into the database in MongoDB.
 
 # 10 Connect VS Code with MongoDB
 <img width="1470" alt="Screen Shot 2023-06-27 at 2 47 14 PM" src="https://github.com/wingck/capstone/assets/99191737/8bcba7e4-8a37-4ab5-95db-3245100b3399">
