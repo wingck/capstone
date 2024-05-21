@@ -11,8 +11,6 @@ yarn add react-router-dom axios react-cookie
 
 For server folder, below are the commands that I have used.
 
-# yarn method
-
 yarn init
 
 yarn add express cors bcrypt jsonwebtoken mongoose
@@ -20,5 +18,4 @@ yarn add express cors bcrypt jsonwebtoken mongoose
 yarn add --dev nodemon
 
 
-
-After connecting to MongoDB's database, it will work.
+# After connecting to MongoDB's database, it will work.
